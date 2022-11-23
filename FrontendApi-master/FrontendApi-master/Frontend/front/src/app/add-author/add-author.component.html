@@ -1,0 +1,27 @@
+<div class="row">
+    <div class="col-md-12">
+        <h2>Add Author</h2>
+    </div>
+
+    <div class="row">
+        <form [formGroup]="addAuthor" novalidate class="form">
+            <div class="row">
+                <div class="col-md-4">Author</div>
+                <div class="col-md-4">
+                    <input type="text" formControlName ="author" class="form-control">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">Message</div>
+                <div class="col-md-4">
+                    <input type="text" formControlName ="message" class="form-control">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8">
+                    <button type="submit" (click)="zzzz()" class="btn btn-success">Add Author</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
